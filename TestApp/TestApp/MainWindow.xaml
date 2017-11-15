@@ -21,6 +21,6 @@
 		</Grid.RowDefinitions>
 
 		<TextBox x:Name="txtBlock" Grid.Row="1" Grid.Column="1" Text="{Binding Path=Output}" MinWidth="20" MinHeight="20" Margin="5"/>
-		<Button x:Name="chkButton" Content="What Is Output" Grid.Row="1" Grid.Column="2" MinWidth="20" MinHeight="20" Click="chkButton_Click" Margin="5"/>
+		<Button x:Name="chkButton" Content="Output is what!" Grid.Row="1" Grid.Column="2" MinWidth="20" MinHeight="20" Click="chkButton_Click" Margin="5"/>
 	</Grid>
 </Window>
