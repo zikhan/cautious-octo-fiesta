@@ -16,7 +16,7 @@ namespace TestApp
         {
             InitializeComponent();
             DataContext = this;
-            Output = "helloworld";
+            Output = "Output Value";
         }
 
         private void chkButton_Click(object sender, RoutedEventArgs e) => MessageBox.Show($"Output is {Output}");
